@@ -1,11 +1,13 @@
-## 安装
-    - CouchDB
+### 安装
+- CouchDB
 
-## 新建数据库
-## 新建设计文档
+### 新建数据库
+- mydb
+### 新建设计文档
 
-    - filter_person: 捕捉类型为person的变化
-    - getAll: 获取全部类型为person的文档
+- filter_person: 捕捉类型为person的变化
+- getAll: 获取全部类型为person的文档
+
 ```
 {
   "_id": "_design/person",
@@ -20,3 +22,4 @@
   "language": "javascript"
 }
 ```
+
